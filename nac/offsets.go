@@ -238,9 +238,6 @@ var offsets_14_5 = imdOffsetTuple{
 var offsets = map[[32]byte]imdOffsetTuple{
 	// macOS 10.13.6
 	hexToByte32("0d9430e530bfb1eb528152e6f3d062408867bd159d54333228742dd7020312a8"): offsets_10_13_6,
-	hexToByte32("253e81362b42a1a5db4270a0f7b55f3f7f0b0ed4c8e3f8a45660d22e3025a971"): offsets_13_6,
-	hexToByte32("253e81362b42a1a5db4270a0f7b55f3f7f0b0ed4c8e3f8a45660d22e3025a971"): offsets_10_13_6,
-	hexToByte32("0b221b700e35d449a88bd16da83b64cdd207a607b711e28db915c4f23100140d"): offsets_10_13_6,
 	// macOS 10.14.6
 	hexToByte32("23f14e11c672c07ef5934614ae2b83b34065ffe179e4a9bcdcdf00c2b724b3df"): offsets_10_14_6,
 	// macOS 10.15.1
@@ -277,6 +274,10 @@ var offsets = map[[32]byte]imdOffsetTuple{
 	hexToByte32("2c674438d30bf489695f2d1b8520afc30cbfb183af82d2fc53d74ce39a25b24e"): offsets_13_6,
 	// macOS 13.6.4
 	hexToByte32("8f22dcfda56a4d3c38931f20fe33db1a6720e4d8571e452aa5a8b56b4c69842a"): offsets_13_6,
+	// macOS 13.6.6
+	hexToByte32("253e81362b42a1a5db4270a0f7b55f3f7f0b0ed4c8e3f8a45660d22e3025a971"): offsets_13_6,
+	// macOS 13.6.7
+	hexToByte32("0b221b700e35d449a88bd16da83b64cdd207a607b711e28db915c4f23100140d"): offsets_13_6,
 	// macOS 14.0
 	hexToByte32("9ffda11206ef874b1e6cb1d8f8fed330d2ac2cbbc87afc15485f4e4371afcd9a"): offsets_14_0,
 	// macOS 14.1 - 14.1.2
